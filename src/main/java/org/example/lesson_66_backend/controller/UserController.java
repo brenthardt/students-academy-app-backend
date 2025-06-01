@@ -74,4 +74,17 @@ public class UserController {
     }
 
 
+    @PostMapping("/create-mentor")
+    public ResponseEntity<?> createMentor(@RequestBody UserDto userDto) {
+       return null;
+    }
+
+    @PostMapping("/create-student")
+    public ResponseEntity<?> createStudent(@RequestBody UserDto userDto) {
+      return null;
+    }
+
+
+
+
 }
